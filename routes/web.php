@@ -21,6 +21,18 @@ Route::get('/', function () {
     return view('home') ;
 });*/
 
-Route::get('/home', function(){
+/*Route::get('/home', function(){
     return view('home');
-})->name('home');
+})->name('home');*/
+
+Route::get('/product', function(){
+    return view('product');
+})->name('product');
+
+Route::get('/info', function(){
+    return view('info');
+})->name('info');
+
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
